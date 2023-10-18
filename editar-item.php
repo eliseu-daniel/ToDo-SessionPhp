@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="content">
-        <form action="criar-item.php" method="post">
+        <form action="editar-item-sessao.php" method="post">
             <input type="text" name="itens">
             <button class="adicionar">Salvar</button>
         </form>
