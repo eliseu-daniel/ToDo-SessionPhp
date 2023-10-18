@@ -1,0 +1,47 @@
+*{
+    /* background-color: #87CEFA; */
+
+background: -webkit-linear-gradient(left, #ffffff, #06e3e5);
+background: -moz-linear-gradient(left, #ffffff, #06e3e5);
+background: -ms-linear-gradient(left, #ffffff, #06e3e5);
+background: -o-linear-gradient(left, #ffffff, #06e3e5);
+background: linear-gradient(to right, #ffffff, #06e3e5)
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    list-style-type: none;
+    
+}
+
+h1, input, ul, li,a{
+    background-color: #ccc;
+    text-align: center;
+
+    list-style-type:none;
+}
+
+form{
+    /* Para centralizar o form*/
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas*/
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    background-color: #ccc;
+    
+    
+    
+}
+
+.adicionar{
+    cursor: pointer;
+    background-image: url("soma.jfif");
+    
+    
+}
