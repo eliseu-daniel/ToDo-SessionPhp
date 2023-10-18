@@ -3,7 +3,7 @@
 require_once('session.php');
 
 $id     = $_GET['id'];
-$item = $_POST['itens'];
+$iten = $_POST['itens'];
 
 editarItem($id, $iten);
 

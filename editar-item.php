@@ -1,3 +1,7 @@
+<?php
+ $id = $_GET['id'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +12,7 @@
 </head>
 <body>
     <div class="content">
-        <form action="editar-item-sessao.php" method="post">
+        <form action="editar-item-sessao.php?id=<?= $id ?>" method="post">
             <input type="text" name="itens">
             <button class="adicionar">Salvar</button>
         </form>

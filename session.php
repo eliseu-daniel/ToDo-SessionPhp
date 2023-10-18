@@ -21,8 +21,8 @@
     }
 
     function editarItem($id, $iten){
-        foreach ( $_SESSION['itens'] as $chave => $item) {
-            if($item['id'] == $id){
+        foreach ( $_SESSION['itens'] as $chave => $objeto) {
+            if($objeto['id'] == $id){
                 $_SESSION['itens'][$chave]['itens'] = $iten;
             }
         }
