@@ -13,7 +13,7 @@
 <body>
     <div class="content">
         <form action="editar-item-sessao.php?id=<?= $id ?>" method="post">
-            <input type="text" name="itens">
+            <input type="text" name="itens" placeholder="Alterar Item">
             <button class="adicionar">Salvar</button>
         </form>
     </div>
